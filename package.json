@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "postinstall": "npm run install-functions",
-    "install-functions": "firebase functions &&  npm install"
+    "install-functions": "cd functions &&  npm install"
   },
   "eslintConfig": {
     "extends": "react-app"
