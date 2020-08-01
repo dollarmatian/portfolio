@@ -26,9 +26,7 @@ jobs:
     # Install Dependencies
     - name: Install Dependencies
       run: npm install
-    #build
-    - name: Install Dependencies
-      run: npm run build
+  
       
     # Deployment
     - name: Deploy to Firebase
