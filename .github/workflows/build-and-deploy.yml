@@ -26,7 +26,8 @@ jobs:
     # Install Dependencies
     - name: Install Dependencies
       run: npm install
-
+  
+      
     # Deployment
     - name: Deploy to Firebase
       uses: w9jds/firebase-action@master
