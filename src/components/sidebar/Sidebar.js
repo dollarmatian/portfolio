@@ -4,6 +4,7 @@ import { SideNavItems, SideNavLink } from './node_modules/carbon-components-reac
 
 import { StyledSideNav } from './styles';
 
+// set paths
 const items = [
   { name: 'Me', path: '/' },
   { name: 'Projects', path: '/projects' },
