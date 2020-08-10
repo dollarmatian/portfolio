@@ -8,19 +8,21 @@ export const ProjectItem = styled.li`
 `
 export const TitleContainer = styled.li`
   display: flex;
+  align-items: center;
   `
 
 export const ProjectTitle = styled.h4`
   font-weight: bold;
+  margin-right: 10px;
 `
 
 export const SiteButton = styled.a`
   display: flex;
   text-decoration: none;
-  padding: 0.75rem 1.5rem;
+  padding: 0.5rem 1rem;
   font-weight: bold;
   align-items: center;
-  margin-top: 1rem;
+  margin: 10px 5px 10px 10px;
   border: 2px solid #2ecc40;
   background-color: rgba(46, 204, 64, 0.3);
   transition: background-color 250ms ease;
@@ -35,10 +37,10 @@ export const SiteButton = styled.a`
 export const CodeButton = styled.a`
   display: flex;
   text-decoration: none;
-  padding: 0.75rem 1.5rem;
+  padding: 0.5rem 1rem;
   font-weight: bold;
   align-items: center;
-  margin-top: 1rem;
+  margin: 10px 10px 10px 5px;
   border: 2px solid #ffcc2f;
   background-color: rgba(240,173,78, 0.3);
   transition: background-color 250ms ease;
