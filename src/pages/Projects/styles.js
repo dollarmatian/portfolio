@@ -14,6 +14,7 @@ export const TitleContainer = styled.li`
 export const ProjectTitle = styled.h4`
   font-weight: bold;
   margin-right: 10px;
+  text-transform: uppercase;
 `
 
 export const SiteButton = styled.a`
