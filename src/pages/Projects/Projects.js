@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import { SectionTitle, Pill } from '../../styles';
 import { ProjectItem, ProjectTitle, SkillContainer } from './styles';
-import { ArrowRight16 } from '@carbon/icons-react';
+
 
 const Projects = ({ user }) => {
   return (
@@ -20,14 +20,14 @@ const Projects = ({ user }) => {
           rel="noopener noreferrer"
         >
           <span>View Site</span>
-          <ArrowRight16 /></SiteButton>
+          </SiteButton>
           <CodeButton href={project.githubUrl}
           target="_blank"
           rel="noopener noreferrer"
         >
           <span>View Code</span>
-          <ArrowRight16 /></CodeButton>
-            </TitleContainer>
+          </CodeButton>
+      </TitleContainer>
               <p>{project.summary}</p>
               <SkillContainer>
                 {[...project.languages, ...project.libraries].map((item, j) => (
