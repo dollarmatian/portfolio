@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import { SectionTitle, Pill } from '../../styles';
 import { ProjectItem, ProjectTitle, SkillContainer } from './styles';
+import { ArrowRight16 } from '@carbon/icons-react';
 
 const Projects = ({ user }) => {
   return (
